@@ -1,0 +1,29 @@
+MediaPipe hand landmarks:
+
+0  Wrist
+1-4   Thumb
+5-8   Index Finger
+9-12  Middle Finger
+13-16 Ring Finger
+17-20 Pinky
+
+Index finger tip:8
+
+Diagram:
+
+Thumb        4
+
+Index        8  ← tip
+
+Middle      12
+
+Ring        16
+
+Pinky       20
+
+So: hand.landmark[8] gives the fingertip position.
+
+Return Coordinates
+return (x, y)
+
+Example:(320,120)
